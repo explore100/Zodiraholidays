@@ -1,0 +1,24 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 18s linear infinite;
+}
+.blend-image {
+  mask-image: linear-gradient(to right, transparent 0%, black 30%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 30%);
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
