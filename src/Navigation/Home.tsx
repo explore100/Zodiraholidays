@@ -4,6 +4,7 @@ import Destiny from "../Pages/Destiny"
 import CompanyLogos from "../Pages/CompanyPartner"
 import ExploreDestinations from "../Pages/ExploreDestination"
 import HeroFlight from "../Layout/HeroSection"
+import VideoSection from "../UI/VideoSection"
 
 
 
@@ -12,15 +13,14 @@ import HeroFlight from "../Layout/HeroSection"
 const Home = () => {
   return (
     <>
-   
+  <VideoSection/>
     <HeroFlight/>
     <ExploreDestinations/>
     <CompanyLogos/>
     <Destiny/>
     <WhyBookWithUs/>
     <TravelTips/>
-    
-    
+
     </>
   )
 }
