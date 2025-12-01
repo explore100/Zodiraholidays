@@ -8,6 +8,8 @@ import Tour from "../Navigation/Tour";
 
 import MainLayout from "../Navigation/MainLayout";
 import Testimonials from "../Navigation/Testimonials";
+import Europe from "../Navigation/Europe";
+import TravelGuide from "../Navigation/TravelGuide";
 export const router = createBrowserRouter([{
 path: "/",
 element: <MainLayout/>,
@@ -31,6 +33,12 @@ children: [{
 },
 {
     path:"testimonials", element: <Testimonials/>
+},
+{
+    path: "europe", element: <Europe/>
+}, 
+{
+    path: "travelguide", element: <TravelGuide/>
 }
 ]
 }]);

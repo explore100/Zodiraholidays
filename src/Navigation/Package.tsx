@@ -5,9 +5,11 @@ import CardsGrid from "../Pages/CardGrid";
 import ServicesProvided from "../Pages/ServiceProvider";
 import TravelFeaturesSection from "../Pages/TravelFeaturesSection";
 import TravelImageSlider from "../Pages/TravelSlider";
+import { BentoGrid } from "../Context/EuropeDestinty/BentoGrid";
 const Package = () => {
   return (
    <>
+   <BentoGrid/>
    <TravelImageSlider/>
    <PopularDestination/>
    <CardsGrid/>

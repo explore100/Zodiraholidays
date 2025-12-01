@@ -315,6 +315,10 @@ export const activityIcons = {
   muktinathImg,
  }
 
+ export const homePageTestimonialsImages = {
+  flowerwomanImg,
+ }
+
 
 
 

@@ -16,7 +16,8 @@ const MainLayout = () => {
     { to: "/Tour", label: "Tour" },
     { to: "/Package", label: "Package" },
     { to: "/Contact", label: "Contact" },
-    { to: "/testimonials", label: "Testimonials"}
+    { to: "/testimonials", label: "Testimonials"},
+    
   ];
 
   return (

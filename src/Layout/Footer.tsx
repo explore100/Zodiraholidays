@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
 
 const Footer: React.FC = () => {
@@ -22,7 +23,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-bold mb-3">Top Destinations</h3>
             <ul className="space-y-1 text-gray-500">
-              <li className="cursor-pointer hover:text-black">Europe</li>
+              <NavLink to='/europe'><li className="cursor-pointer hover:text-black">Europe</li></NavLink>
               <li className="cursor-pointer hover:text-black">Asia</li>
               <li className="cursor-pointer hover:text-black">Nepal</li>
             </ul>
@@ -31,9 +32,9 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-bold mb-3">Contact</h3>
             <ul className="space-y-1 text-gray-500">
-              <li className="cursor-pointer hover:text-black">Help/FAQ</li>
-              <li className="cursor-pointer hover:text-black">About Us</li>
-              <li className="cursor-pointer hover:text-black">Travel Guides</li>
+              <NavLink to="/Contact"><li className="cursor-pointer hover:text-black">Contact/FAQ</li> </NavLink>
+              <NavLink to="/AboutUs"><li className="cursor-pointer hover:text-black">About Us</li></NavLink>
+              <NavLink to="/travelguide"><li className="cursor-pointer hover:text-black">Travel Guides</li></NavLink>
             </ul>
           </div>
           {/* More */}
@@ -42,7 +43,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-1 text-gray-500">
               <li className="cursor-pointer hover:text-black">Heli Booking</li>
               <li className="cursor-pointer hover:text-black">Bus Ticketing</li>
-              <li className="cursor-pointer hover:text-black">Packages</li>
+              <NavLink to="/Package"><li className="cursor-pointer hover:text-black">Packages</li></NavLink>
             </ul>
           </div>
         </div>

@@ -31,6 +31,8 @@ import type {
   TestimonialImagesData,
   Testimonialtext,
   ClientData,
+  HomeTestimonials,
+  
 } from "../Types/types";
 import {
   travelImages,
@@ -56,6 +58,7 @@ import {
   travelFeatureImages,
   testimonialsBannerImages,
   clientImages,
+  homePageTestimonialsImages,
 
 } from "../Utils/image";
 import {
@@ -997,3 +1000,49 @@ export const testimonialsData: ClientData[] = [
   },
  }, 
 ];
+
+export const HomePageTestimonials: HomeTestimonials[] = [
+   {
+    id: 1,
+    name: "John Doe",
+    location: "Marketing Manager",
+    message: "This product exceeded my expectations. Highly recommended!",
+    image: homePageTestimonialsImages.flowerwomanImg,
+  },
+  {
+    id: 2,
+    name: "Sarah Lee",
+    location: "Project Lead",
+    message: "Great experience from start to finish. Will use again.",
+    image: homePageTestimonialsImages.flowerwomanImg,
+  },
+  {
+    id: 3,
+    name: "Michael Stone",
+    location: "Business Owner",
+    message: "Amazing service and fast support. Couldn’t be happier.",
+    image: homePageTestimonialsImages.flowerwomanImg,
+  },
+  {
+    id: 4,
+    name: "Emily Rose",
+    location: "Designer",
+    message: "Stylish, clean, and very easy to use. Loved it.",
+    image: homePageTestimonialsImages.flowerwomanImg,
+  },
+  {
+    id: 5,
+    name: "Ashley Brown",
+    location: "Software Developer",
+    message: "Solid experience. Everything works exactly as described.",
+    image: homePageTestimonialsImages.flowerwomanImg,
+  },
+  {
+    id: 6,
+    name: "David Clark",
+    location: "Team Supervisor",
+    message: "Professional quality and excellent customer service.",
+    image: homePageTestimonialsImages.flowerwomanImg,
+  },
+  
+]

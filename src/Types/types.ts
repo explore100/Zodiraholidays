@@ -224,4 +224,12 @@ export interface Client {
   client: Client;
 }
 
+export interface HomeTestimonials {
+  id: number;
+  name: string;
+  location : string;
+  message: string;
+  image: string;
+}
+
 

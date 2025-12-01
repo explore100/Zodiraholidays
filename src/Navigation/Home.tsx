@@ -4,6 +4,8 @@ import Destiny from "../Pages/Destiny"
 import CompanyLogos from "../Pages/CompanyPartner"
 import ExploreDestinations from "../Pages/ExploreDestination"
 import HeroFlight from "../Layout/HeroSection"
+import HomeTestimonials from "../Pages/HomeTestimonial"
+
 
 
 
@@ -18,8 +20,10 @@ const Home = () => {
     <ExploreDestinations/>
     <CompanyLogos/>
     <Destiny/>
+    <HomeTestimonials/>
     <WhyBookWithUs/>
     <TravelTips/>
+    
 
     </>
   )
