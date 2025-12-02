@@ -5,6 +5,7 @@ import CompanyLogos from "../Pages/CompanyPartner"
 import ExploreDestinations from "../Pages/ExploreDestination"
 import HeroFlight from "../Layout/HeroSection"
 import HomeTestimonials from "../Pages/HomeTestimonial"
+import HomePage from "../Layout/HomeBanner"
 
 
 
@@ -15,7 +16,7 @@ import HomeTestimonials from "../Pages/HomeTestimonial"
 const Home = () => {
   return (
     <>
-
+<HomePage/>
     <HeroFlight/>
     <ExploreDestinations/>
     <CompanyLogos/>
